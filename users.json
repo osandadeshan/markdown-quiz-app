@@ -1,12 +1,12 @@
 {
-    "users": [
-      {
-        "username": "osanda",
-        "password": "maxsoft"
-      },
-      {
-        "username": "activate",
-        "password": "qatest"
-      }
-    ]
-  }  
+  "users": [
+    {
+      "username": "osanda",
+      "password": "maxsoft"
+    },
+    {
+      "username": "activate",
+      "password": "qatest"
+    }
+  ]
+}

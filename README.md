@@ -47,6 +47,7 @@ cd markdown-quiz-app
 ```
 
 ### 2. Install Dependencies
+
 Make sure you have Node.js installed, then install the required dependencies by running:
 
 ```bash
@@ -54,6 +55,7 @@ npm install
 ```
 
 ### 3. Set Up the Application
+
 Ensure you have a .env file in the root directory of the project for environment variables such as:
 
 ```bash
@@ -63,6 +65,7 @@ SESSION_SECRET=your_random_secret_key
 Update the markdown file with your quiz content in the questions.md file.
 
 ### 4. Run the Application
+
 To run the application in production mode, run:
 
 ```bash
@@ -76,13 +79,14 @@ npm run dev
 ```
 
 ### 5. Access the Application
+
 Visit http://localhost:3000 in your browser to interact with the quiz application.
 
 ---
 
 ## Sample Application
-A sample version of the application is deployed on [Render](https://dashboard.render.com/). You can try it out [here](https://markdown-quiz-app.onrender.com).
 
+A sample version of the application is deployed on [Render](https://dashboard.render.com/). You can try it out [here](https://markdown-quiz-app.onrender.com).
 
 ---
 
@@ -104,9 +108,11 @@ A sample version of the application is deployed on [Render](https://dashboard.re
 ├── README.md           # Project documentation
 └── users.json          # Users' login credentials
 ```
+
 ---
 
 ## Future Enhancements
+
 - **Add Admin Dashboard**: Enable admin users to upload new markdown quiz files through a UI.
 - **Add Timer Feature**: Implement a quiz timer for competitive scenarios.
 - **Improve Results Page**: Show more statistics such as time taken and comparison with other users.
@@ -115,6 +121,7 @@ A sample version of the application is deployed on [Render](https://dashboard.re
 ---
 
 ## Contributions
+
 We welcome contributions to this project! To contribute:
 
 1. Fork the repository.
@@ -126,6 +133,7 @@ We welcome contributions to this project! To contribute:
 ---
 
 ## License
+
 This project is licensed under the MIT License. You are free to use, modify, and distribute this software under the terms of the license.
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/License_icon-mit-2.svg/2000px-License_icon-mit-2.svg.png" alt="MIT License" width="100" height="100"/> [MIT License](https://opensource.org/licenses/MIT)
@@ -133,6 +141,7 @@ This project is licensed under the MIT License. You are free to use, modify, and
 ---
 
 ## Contact
+
 For any inquiries or issues, feel free to open an issue on the repository or contact me at:
 
 - **Email**: your.osanda.deshan@gmail.com
@@ -141,4 +150,5 @@ For any inquiries or issues, feel free to open an issue on the repository or con
 ---
 
 ## Acknowledgments
+
 Thanks to Node.js, Express.js, Bootstrap, and the open-source community for making this project possible.
