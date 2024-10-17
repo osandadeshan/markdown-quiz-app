@@ -1,0 +1,12 @@
+{
+    "users": [
+      {
+        "username": "osanda",
+        "password": "maxsoft"
+      },
+      {
+        "username": "activate",
+        "password": "qatest"
+      }
+    ]
+  }  

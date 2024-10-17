@@ -31,8 +31,7 @@ A simple, lightweight quiz application built with Node.js that allows candidates
 - **Sessions & Cookies**: Used for maintaining user sessions and ensuring quiz state.
 - **Markdown**: Simplifies quiz creation and management by storing questions in a plain text file.
 - **Bootstrap**: Provides styling and responsive design for the UI.
-- **GitHub Pages**: Used for deploying the front-end of the application.
-- **Heroku/Render**: For deploying the back-end (Node.js server).
+- **Render**: For deploying the back-end (Node.js server).
 
 ---
 
@@ -82,10 +81,8 @@ Visit http://localhost:3000 in your browser to interact with the quiz applicatio
 ---
 
 ## Sample Application
-A sample version of the application is deployed on GitHub Pages for the front-end and on Heroku or Render for the backend. You can try it out live:
+A sample version of the application is deployed on [Render](https://dashboard.render.com/). You can try it out [here](https://markdown-quiz-app.onrender.com).
 
-- **Frontend**: GitHub Pages
-- **Backend**: Heroku/Render
 
 ---
 
@@ -104,7 +101,8 @@ A sample version of the application is deployed on GitHub Pages for the front-en
 ├── app.js              # Main application logic
 ├── package-lock.json   # Dependency lock file
 ├── package.json        # Project configuration and scripts
-└── README.md           # Project documentation
+├── README.md           # Project documentation
+└── users.json          # Users' login credentials
 ```
 ---
 

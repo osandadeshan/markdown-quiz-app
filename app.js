@@ -48,12 +48,26 @@ app.get('/login', (req, res) => {
 // Handle login
 app.post('/login', (req, res) => {
     const { username, password } = req.body;
-    if (username === validUsername && password === validPassword) {
-        req.session.user = { username }; // Store user in session
-        res.redirect('/quizzes'); // Redirect to quizzes page after login
-    } else {
-        res.send('Invalid credentials. <a href="/login">Try again</a>');
-    }
+
+    fs.readFile('users.json', 'utf8', (err, data) => {  // Read users.json
+        if (err) {
+            return res.status(400).send('Error reading users.json file.');
+        }
+
+        const users = JSON.parse(data).users;
+
+        // Check if user exists in users.json
+        const user = users.find(u => u.username === username && u.password === password);
+
+        if (user) {
+            // If the user is found and credentials match
+            req.session.user = { username }; // Store the user in session
+            res.redirect('/quizzes'); // Redirect to quizzes page after login
+        } else {
+            // If the user is not found or credentials do not match
+            res.status(401).send('Invalid username or password. <a href="/login">Try again</a>');
+        }
+    });
 });
 
 function isAuthenticated(req, res, next) {
