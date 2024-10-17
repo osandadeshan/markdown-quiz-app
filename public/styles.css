@@ -1,0 +1,130 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-top: 20px; /* Space above the quiz title */
+    margin-bottom: 20px; /* Space below the quiz title */
+    text-align: center; /* Center the title */
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+.container {
+    max-width: 600px; /* Limit container width */
+    margin: auto; /* Center the container */
+    padding: 20px; /* Add padding around the container */
+    font-family: Arial, sans-serif; /* Use a professional font */
+    background-color: #f9f9f9; /* Light background for contrast */
+    border-radius: 10px; /* Round corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.question {
+    margin-bottom: 20px; /* Space between questions */
+    padding: 15px; /* Add padding inside each question */
+    border: 1px solid #ccc; /* Optional: border around questions */
+    border-radius: 5px; /* Round corners of question box */
+    background-color: #ffffff; /* White background for questions */
+}
+
+.question-container {
+    margin-bottom: 20px; /* Space between questions */
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.correct {
+    color: green; /* Color for correct answers */
+}
+
+.wrong {
+    color: red; /* Color for wrong answers */
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.options {
+    margin-top: 10px; /* Space between question and first option */
+}
+
+label {
+    display: block; /* Stack options vertically */
+}
+
+input[type="text"], input[type="password"], textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* Adjustments for buttons and links */
+.button-container {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space out buttons */
+    margin-top: 20px; /* Space above button container */
+}
+
+/* Button Styles */
+button {
+    width: fit-content;
+    padding: 10px 15px; /* Padding for buttons */
+    background-color: #007bff; /* Primary color for buttons */
+    color: white; /* Text color for buttons */
+    border: none; /* No border for buttons */
+    border-radius: 5px; /* Round corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Transition effect for hover */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* Results Styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: #e9ecef;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+/* Links */
+a {
+    color: #007bff; /* Link color */
+    text-decoration: none; /* Remove underline from links */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    .container {
+        width: 95%;
+        padding: 10px;
+    }
+}
