@@ -132,6 +132,7 @@ This project is licensed under the MIT License. You are free to use, modify, and
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/License_icon-mit-2.svg/2000px-License_icon-mit-2.svg.png" alt="MIT License" width="100" height="100"/>
 [MIT License](https://opensource.org/licenses/MIT)
+
 ---
 
 ## Contact
