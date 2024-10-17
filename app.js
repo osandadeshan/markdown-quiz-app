@@ -298,5 +298,5 @@ app.get('/results', isAuthenticated, (req, res) => {
 // Start the server
 app.listen(process.env.PORT || 3000, () => {
     // Application running port is 3000
-    log(chalk.blue.bgRed.bold("Quiz app running at: http://localhost:3000"));
+    console.log("Quiz app running at: http://localhost:3000");
 });
