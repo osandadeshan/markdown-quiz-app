@@ -114,7 +114,7 @@ A sample version of the application is deployed on [Render](https://dashboard.re
 
 ---
 
-## Contributing
+## Contributions
 We welcome contributions to this project! To contribute:
 
 1. Fork the repository.
