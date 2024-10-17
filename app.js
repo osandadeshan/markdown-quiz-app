@@ -9,7 +9,10 @@ app.use(session({
     secret: process.env.SESSION_SECRET, // Replace with a secure random string
     resave: false,
     saveUninitialized: false,
-    cookie: { secure: false } // Set to true if using HTTPS
+    cookie: {
+        secure: false, // Set to true if using HTTPS
+        maxAge: 60 * 60 * 1000 // Session expires after 1 hour (in milliseconds)
+    }
 }));
 
 // Middleware to parse URL-encoded data and serve static files
