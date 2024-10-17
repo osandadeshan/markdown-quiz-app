@@ -4,6 +4,27 @@ A simple, lightweight quiz application built with Node.js that allows candidates
 
 ---
 
+# Table of Contents
+
+- [Key Features](#key-features)
+- [Advantages](#advantages)
+- [Tools and Technologies](#tools-and-technologies)
+- [How to Use the Application](#how-to-use-the-application)
+  - [1. Clone the Repository](#1-clone-the-repository)
+  - [2. Install Dependencies](#2-install-dependencies)
+  - [3. Set Up the Application](#3-set-up-the-application)
+  - [4. Run the Application](#4-run-the-application)
+  - [5. Access the Application](#5-access-the-application)
+- [Sample Application](#sample-application)
+- [Project Structure](#project-structure)
+- [Future Enhancements](#future-enhancements)
+- [Contributions](#contributions)
+- [License](#license)
+- [Contact](#contact)
+- [Acknowledgments](#acknowledgments)
+
+---
+
 ## Key Features
 
 - **Multiple Question Types**: Supports single answer (radio buttons), multiple answer (checkboxes), and text input questions.
@@ -113,10 +134,10 @@ A sample version of the application is deployed on [Render](https://dashboard.re
 
 ## Future Enhancements
 
-- **Add Admin Dashboard**: Enable admin users to upload new markdown quiz files through a UI.
+- **Enhanced Authentication**: Enhance the security of the login mechanism for candidates by allowing them to log in using their registered email addresses from our `users.json` file.
 - **Add Timer Feature**: Implement a quiz timer for competitive scenarios.
+- **Add Admin Dashboard**: Enable admin users to upload new markdown quiz files through a UI.
 - **Improve Results Page**: Show more statistics such as time taken and comparison with other users.
-- **Enhanced Authentication**: Add more secure login methods, including OAuth.
 
 ---
 
