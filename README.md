@@ -130,7 +130,8 @@ We welcome contributions to this project! To contribute:
 ## License
 This project is licensed under the MIT License. You are free to use, modify, and distribute this software under the terms of the license.
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/License_icon-mit-2.svg/2000px-License_icon-mit-2.svg.png" alt="MIT License" width="100" height="100"/> [MIT License](https://opensource.org/licenses/MIT)
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/License_icon-mit-2.svg/2000px-License_icon-mit-2.svg.png" alt="MIT License" width="100" height="100"/>
+[MIT License](https://opensource.org/licenses/MIT)
 ---
 
 ## Contact
