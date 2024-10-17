@@ -5,8 +5,6 @@ const fs = require('fs');
 const path = require('path');
 const app = express();
 
-const port = 3000;
-
 app.use(session({
     secret: process.env.SESSION_SECRET, // Replace with a secure random string
     resave: false,
@@ -298,6 +296,7 @@ app.get('/results', isAuthenticated, (req, res) => {
 });
 
 // Start the server
-app.listen(port, () => {
-    console.log(`Quiz app running at http://localhost:${port}`);
+app.listen(process.env.PORT || 3000, () => {
+    // Application running port is 3000
+    log(chalk.blue.bgRed.bold("Quiz app running at: http://localhost:3000"));
 });
