@@ -1,4 +1,4 @@
-# Quiz 1: Technical Skills - Java, Selenium, and TestNG
+# Quiz 1: Basic Technical Skills - Java, Selenium, and TestNG
 
 ## 1. What is the default access modifier for classes and members in Java? [single]
 
