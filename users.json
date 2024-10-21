@@ -7,6 +7,14 @@
     {
       "username": "activate",
       "password": "qatest"
+    },
+    {
+      "username": "activateqa1",
+      "password": "qatest1"
+    },
+    {
+      "username": "activateqa2",
+      "password": "qatest2"
     }
   ]
 }
