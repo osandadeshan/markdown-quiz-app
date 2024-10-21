@@ -1,4 +1,4 @@
-# Quiz 2: Basic QA Concepts
+# Quiz 1: Basic QA Concepts
 
 ## 1. What is the primary goal of Quality Assurance (QA)? [single]
 
