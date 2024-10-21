@@ -1,4 +1,4 @@
-# Quiz 2: Advanced QA Concepts and Methodologies
+# Quiz 3: Advanced QA Concepts and Methodologies
 
 ## 1. In an Agile environment, how would you effectively incorporate non-functional testing (e.g., performance, security) into short sprints? [multiple]
 
