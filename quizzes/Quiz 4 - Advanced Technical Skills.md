@@ -56,7 +56,7 @@
 - [ ] Annotate beans with "@ComponentScan" to avoid circular dependencies.
 - [ ] Use direct field injection to bypass circular dependency issues.
 
-## 9. In Selenium, how do you handle file uploads when the "&lt;input type="file"&gt;" is not visible or directly interactable? [multiple]
+## 9. In Selenium, how do you handle file uploads when the "&lt;input type='file'&gt;" is not visible or directly interactable? [multiple]
 
 - [x] Use "sendKeys()" to set the file path to the "&lt;input&gt;" element.
 - [x] Use JavaScriptExecutor to make the element visible before interacting with it.
